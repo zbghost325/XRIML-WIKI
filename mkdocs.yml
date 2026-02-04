@@ -1,7 +1,7 @@
 site_name: XRIML Wiki
 site_description: XR Immersive Media Lab Documentation
 site_author: CAMD - Northeastern University
-site_url: https://zbghost325.github.io/XRIML-Wiki/
+site_url: https://zbghost325.github.io/XRIML-WIKI/
 
 theme:
   name: material
