@@ -4,6 +4,13 @@
 
 The **XR Immersive Media Lab (XRIML)** is the hub for Extended Reality (XR) at Northeastern University's College of Arts, Media and Design (CAMD). We support students, faculty, and courses in utilizing XR for experiential learning, content creation, application development, research, and exploration.
 
+The XRIML primarily serves **CAMD students, faculty, and courses**, including programs in:
+
+- Art & Design
+- Architecture
+- Game Design
+- Communication and Journalism
+
 ## What We Offer
 
 ## Quick Links
@@ -17,33 +24,6 @@ The **XR Immersive Media Lab (XRIML)** is the hub for Extended Reality (XR) at N
 
 !!! info "New to the Lab?"
     Check out our [Lab Rules](policies/lab-rules.md) and [Reservation Policy](policies/reservations.md) before your first visit.
-
-## Quick Links
-
-<div class="grid cards" markdown>
-
-- :material-map-marker: **[Lab Spaces](spaces/overview.md)**  
-  Testing Room, Development Room, Classroom
-
-- :material-virtual-reality: **[Equipment](equipment/overview.md)**  
-  Headsets, cameras, motion capture
-
-- :material-application: **[Software](software/overview.md)**  
-  Unity, Unreal, Blender, Maya
-
-- :material-clipboard-list: **[Policies](policies/lab-rules.md)**  
-  Rules, reservations, checkout
-
-</div>
-
-## Who Can Use the Lab?
-
-The XRIML primarily serves **CAMD students, faculty, and courses**, including programs in:
-
-- Art & Design
-- Architecture
-- Game Design
-- Communication and Journalism
 
 ## Location & Contact
 **Location:** Holmes Hall Room 374, 3rd Floor, 39 Leon St, Boston, MA, 02115
