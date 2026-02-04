@@ -1,2 +1,2 @@
-mkdocs
-mkdocs-material
+mkdocs-material>=9.0
+mkdocs-print-site-plugin>=2.3
