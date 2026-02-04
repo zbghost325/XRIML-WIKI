@@ -1,0 +1,16 @@
+site_name: XRIML Wiki
+site_description: XR Immersive Media Lab Documentation
+site_url: https://zbghost325.github.io/XRIML-Wiki/
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: red
+    accent: red
+
+nav:
+  - Home: index.md
+
+plugins:
+  - search
