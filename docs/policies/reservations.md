@@ -16,10 +16,7 @@ Reserve time in the XR Immersive Media Lab using our online booking system.
 
 ## Video Tutorial
 
-<video width="100%" controls>
-  <source src="../images/reservation-tutorial.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe src="https://northeastern.sharepoint.com/sites/CAMDHub/_layouts/15/embed.aspx?UniqueId=d536d4a1-f9f4-4075-973a-1dd21876d8b6&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="SuperSaaS - Making an IML SuperSaaS Reservation - 2023.mp4"></iframe>
 
 ---
 
