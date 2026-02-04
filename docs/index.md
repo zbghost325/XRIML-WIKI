@@ -12,6 +12,11 @@ The **XR Immersive Media Lab (XRIML)** is the hub for Extended Reality (XR) at N
 - **High-Performance Workstations** — PCs capable of running Unity, Unreal Engine, Maya, Blender, and other XR development tools
 - **Dedicated Spaces** — Room-scale VR testing, development workstations, and a classroom/research room
 
+---
+
+!!! info "New to the Lab?"
+    Check out our [Lab Rules](policies/lab-rules.md) and [Reservation Policy](policies/reservations.md) before your first visit.
+
 ## Quick Links
 
 <div class="grid cards" markdown>
@@ -43,9 +48,3 @@ The XRIML primarily serves **CAMD students, faculty, and courses**, including pr
 **Location:** Holmes Hall Room 374, 3rd Floor, 39 Leon St, Boston, MA, 02115
 **Hours:** 9:00AM-5:00PM on Weekdays, 12:00PM-6:00P Weekends, Closed Holidays
 **General Lab Email:** camdimmersivemedialab@northeastern.edu
-
-
----
-
-!!! info "New to the Lab?"
-    Check out our [Lab Rules](policies/lab-rules.md) and [Reservation Policy](policies/reservations.md) before your first visit.
