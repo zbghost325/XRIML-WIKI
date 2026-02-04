@@ -40,10 +40,10 @@ The XRIML primarily serves **CAMD students, faculty, and courses**, including pr
 - Communication and Journalism
 
 ## Location & Contact
+**Location:** Holmes Hall Room 374, 3rd Floor, 39 Leon St, Boston, MA, 02115
+**Hours:** 9:00AM-5:00PM on Weekdays, 12:00PM-6:00P Weekends, Closed Holidays
+**General Lab Email:** camdimmersivemedialab@northeastern.edu
 
-**Location:** [Add building and room number]  
-**Hours:** [Add hours]  
-**Email:** [Add contact email]
 
 ---
 
