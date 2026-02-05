@@ -8,10 +8,12 @@ The **XR Immersive Media Lab (XRIML)** is the hub for Extended Reality (XR) at N
 
 The XRIML primarily serves **CAMD students, faculty, and courses**, including programs in:
 
-- Art & Design
-- Architecture
-- Game Design
-- Communication and Journalism
+- Architecture 
+- Art + Design
+- Communication Studies
+- Journalism
+- Music
+- Theatre
 
 ## What We Offer
 
