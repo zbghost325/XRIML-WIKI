@@ -25,6 +25,10 @@ theme:
 
 nav:
   - Home: index.md
+  - Policies:
+      - Lab Rules: policies/lab-rules.md
+      - Reservations: policies/reservations.md
+      - Equipment Checkout: policies/equipment-checkout.md
 
 plugins:
   - search
