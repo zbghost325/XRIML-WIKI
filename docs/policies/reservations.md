@@ -16,7 +16,7 @@ Reserve time in the XR Immersive Media Lab using our online booking system.
 
 ## Video Tutorial
 
-<iframe width="1243" height="777" src="https://www.youtube.com/embed/XWyz1Zcgmvo" title="Making an IML SuperSaaS Reservation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1243" height="444" src="https://www.youtube.com/embed/XWyz1Zcgmvo" title="Making an IML SuperSaaS Reservation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
