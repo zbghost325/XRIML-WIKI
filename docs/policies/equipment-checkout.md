@@ -15,11 +15,10 @@ Rent equipment from the XR Immersive Media Lab using the WebCheckout Patron Port
 
 ### Hours (Fall & Spring Semesters)
 
-| | Monday–Thursday | Friday |
-|---|---|---|
-| **Earliest pickup/return** | 9:30 AM | 9:30 AM |
-| **Latest pickup/return** | 5:00 PM | 4:00 PM |
-| **Same-day cutoff** | 4:00 PM | 3:00 PM |
+| | Pickup/Return Window |
+|---|---|
+| **Monday–Friday Pickup** | 9:00 AM | 4:00 PM |
+| **Saturday–Sunday Pickup** | Not Available | Not Available |
 
 !!! tip "Weekend Rentals"
     The XR Immersive Media Lab is closed on weekends. Pick up Wednesday–Friday and return the following week.
