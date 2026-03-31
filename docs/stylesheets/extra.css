@@ -161,11 +161,13 @@
 }
 
 .resource-card .card-label {
+  display: block;
   font-weight: 600;
   font-size: 0.95rem;
 }
 
 .resource-card .card-desc {
+  display: block;
   font-size: 0.78rem;
   color: var(--md-default-fg-color--light);
   margin-top: 0.15rem;
