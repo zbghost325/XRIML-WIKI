@@ -3,31 +3,43 @@ tags:
   - Equipment
   - AR
 date: 2026-03-30
-version: "2.0"
+version: "3.0"
 ---
 
 # AR Headsets
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v2.0</span>
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v3.0</span>
   <span class="tag">Equipment</span>
   <span class="tag">AR</span>
 </div>
 
-<div class="icon-legend">
-  <span class="legend-item"><span class="badge badge-checkout">:material-cart-outline: WebCheckout</span> Available for checkout</span>
-  <span class="legend-item"><span class="badge badge-standalone">:material-access-point: Standalone</span> Standalone</span>
-</div>
+Augmented reality headsets and smart glasses available in the XRIML. Items marked with :material-cart-outline: can be checked out via [WebCheckout](../policies/equipment-checkout.md).
 
-Augmented reality headsets and smart glasses available in the XRIML.
+| Icon | Meaning |
+|------|---------|
+| :material-cart-outline: | Available for checkout via WebCheckout |
+| :material-access-point: | Standalone |
 
-## Available AR Headsets
+---
 
-| Headset | Type | Checkout | Notes |
-|---------|------|----------|-------|
-| Microsoft HoloLens 2 | <span class="badge badge-standalone">:material-access-point: Standalone</span> | — | Optical see-through, hand tracking, spatial mapping |
-| Magic Leap 2 | <span class="badge badge-standalone">:material-access-point: Standalone</span> | — | Dimming optics, enterprise AR |
-| Nreal Air | <span class="badge badge-standalone">:material-access-point: Standalone</span> | <span class="badge badge-checkout">:material-cart-outline: WebCheckout</span> | Lightweight AR glasses, USB-C tethered to phone/PC |
+### Microsoft HoloLens 2 :material-cart-outline: :material-access-point:
+
+Offers enhanced ergonomics and intuitive hand tracking for immersive collaboration and mixed reality interaction.
+
+---
+
+### Magic Leap 2 :material-access-point:
+
+Advanced mixed reality device with wider field of view and enterprise-grade performance for collaborative XR workflows.
+
+---
+
+### Vuzix Blade :material-access-point:
+
+Discreet smart glasses delivering hands-free AR overlays and notifications in a wearable, lightweight form.
+
+---
 
 !!! info "AR Development"
     Most AR headsets require specific SDKs. See the [Software](software.md) page for supported development environments.
