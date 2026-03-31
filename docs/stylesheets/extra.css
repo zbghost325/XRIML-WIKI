@@ -60,6 +60,117 @@
   box-shadow: 0 1px 3px rgba(164, 128, 74, 0.3);
 }
 
+/* ── Equipment icon badges ── */
+.icon-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.icon-legend .legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+/* Inline icon badges used in tables and lists */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.badge-checkout {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border: 1px solid #A5D6A7;
+}
+
+[data-md-color-scheme="slate"] .badge-checkout {
+  background: #1B3A1E;
+  color: #81C784;
+  border-color: #2E7D32;
+}
+
+.badge-standalone {
+  background: #E8EAF6;
+  color: #3949AB;
+  border: 1px solid #9FA8DA;
+}
+
+[data-md-color-scheme="slate"] .badge-standalone {
+  background: #1A237E33;
+  color: #7986CB;
+  border-color: #3949AB;
+}
+
+.badge-pcvr {
+  background: #E0F2F1;
+  color: #00695C;
+  border: 1px solid #80CBC4;
+}
+
+[data-md-color-scheme="slate"] .badge-pcvr {
+  background: #004D4033;
+  color: #4DB6AC;
+  border-color: #00695C;
+}
+
+/* ── Resource guide category grid ── */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.resource-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-code-bg-color);
+  text-decoration: none !important;
+  color: var(--md-default-fg-color) !important;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.resource-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.resource-card .card-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.resource-card .card-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.resource-card .card-desc {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.15rem;
+}
+
 /* MkDocs Material tags plugin built-in tag styling */
 [data-md-color-scheme] .md-tag {
   font-weight: 600;

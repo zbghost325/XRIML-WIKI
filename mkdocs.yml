@@ -25,6 +25,20 @@ theme:
 
 nav:
   - Home: index.md
+  - Resource Guide:
+      - Overview: equipment/overview.md
+      - VR Headsets: equipment/vr-headsets.md
+      - AR Headsets: equipment/ar-headsets.md
+      - MR Headsets: equipment/mr-headsets.md
+      - XR Accessories: equipment/xr-accessories.md
+      - 360 Cameras: equipment/360-cameras.md
+      - 360 Accessories: equipment/360-accessories.md
+      - Motion Capture: equipment/motion-capture.md
+      - Volumetric Video Capture: equipment/volumetric-capture.md
+      - Computers: equipment/workstations.md
+      - Displays: equipment/displays.md
+      - Software: equipment/software.md
+      - Legacy: equipment/legacy.md
   - Policies:
       - Lab Rules: policies/lab-rules.md
       - Reservations: policies/reservations.md
@@ -42,6 +56,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
   - meta
