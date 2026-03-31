@@ -1,4 +1,18 @@
+---
+tags:
+  - Policy
+  - Equipment
+date: 2026-03-30
+version: "1.0"
+---
+
 # Equipment Checkout Guide
+
+<div class="page-meta">
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="tag">Policy</span>
+  <span class="tag">Equipment</span>
+</div>
 
 Rent equipment from the XR Immersive Media Lab using the WebCheckout Patron Portal.
 
@@ -63,7 +77,7 @@ Rent equipment from the XR Immersive Media Lab using the WebCheckout Patron Port
 
 ## Picking Up Equipment?
 
-The person picking up must bring their Husky ID. 
+The person picking up must bring their Husky ID.
 **We do not release equipment to anyone who did not make the WebCheckout Reservation themselves!**
 
 ---

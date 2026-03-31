@@ -19,3 +19,56 @@
   height: auto;
   width: 400px;
 }
+
+/* ── Page metadata banner (version date + tags) ── */
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.6rem 0.8rem;
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.82rem;
+}
+
+.page-meta .meta-date {
+  color: var(--md-default-fg-color--light);
+  margin-right: 0.75rem;
+  white-space: nowrap;
+}
+
+/* Tag badges */
+.page-meta .tag {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+/* Keralia Training — special accent tag */
+.page-meta .tag.tag-keralia {
+  background: linear-gradient(135deg, #A4804A, #C8A85C);
+  color: #fff;
+  border: 1.5px solid #8A6A3A;
+  box-shadow: 0 1px 3px rgba(164, 128, 74, 0.3);
+}
+
+/* MkDocs Material tags plugin built-in tag styling */
+[data-md-color-scheme] .md-tag {
+  font-weight: 600;
+}
+
+/* Keralia Training tag in the tags index */
+a[href*="Keralia"],
+.md-tag[href*="Keralia"] {
+  background: linear-gradient(135deg, #A4804A, #C8A85C) !important;
+  color: #fff !important;
+  border: 1.5px solid #8A6A3A;
+}

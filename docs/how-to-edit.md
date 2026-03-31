@@ -1,4 +1,16 @@
+---
+tags:
+  - Guide
+date: 2026-03-30
+version: "1.0"
+---
+
 # How to Edit This Wiki
+
+<div class="page-meta">
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="tag">Guide</span>
+</div>
 
 This guide explains how to update the XRIML Wiki. **No coding experience required** — you can edit everything directly in your web browser.
 
@@ -33,6 +45,36 @@ docs/
 3. Make your changes
 4. Scroll down and click **"Commit changes"**
 5. The wiki will automatically rebuild (takes ~1 minute)
+
+---
+
+## Page Metadata: Tags & Version Dates
+
+Every content page includes **YAML frontmatter** at the top and a **metadata banner** below the title. When editing or creating pages, follow this pattern:
+
+```yaml
+---
+tags:
+  - Equipment
+  - VR
+  - Keralia Training    # Add this tag for Keralia training content
+date: 2026-03-30        # Update when content changes
+version: "1.1"          # Bump version on updates
+---
+```
+
+Then add the visual banner after the `# Title`:
+
+```html
+<div class="page-meta">
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.1</span>
+  <span class="tag">Equipment</span>
+  <span class="tag">VR</span>
+  <span class="tag tag-keralia">Keralia Training</span>
+</div>
+```
+
+Use `class="tag tag-keralia"` for the special Keralia Training tag (gold styling).
 
 ---
 
@@ -145,6 +187,7 @@ nav:
 | Add a new headset | Edit `equipment/vr-headsets.md` or create new page |
 | Change lab hours | Edit `about/contact-hours.md` |
 | Add a new policy | Create new `.md` in `policies/`, add to `mkdocs.yml` |
+| Browse by topic | Visit the [Tags](tags.md) page |
 
 ---
 

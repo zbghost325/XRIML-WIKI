@@ -1,4 +1,18 @@
+---
+tags:
+  - Policy
+  - Reservations
+date: 2026-03-30
+version: "1.0"
+---
+
 # Lab Reservations
+
+<div class="page-meta">
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="tag">Policy</span>
+  <span class="tag">Reservations</span>
+</div>
 
 Reserve time in the XR Immersive Media Lab using our online booking system.
 

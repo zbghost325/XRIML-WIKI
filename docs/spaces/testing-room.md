@@ -1,4 +1,20 @@
+---
+tags:
+  - Spaces
+  - Testing
+  - Keralia Training
+date: 2026-03-30
+version: "1.0"
+---
+
 # Testing Room
+
+<div class="page-meta">
+  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="tag">Spaces</span>
+  <span class="tag">Testing</span>
+  <span class="tag tag-keralia">Keralia Training</span>
+</div>
 
 ![Testing Room](../images/testing-room.jpg)
 

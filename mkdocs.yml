@@ -29,15 +29,22 @@ nav:
       - Lab Rules: policies/lab-rules.md
       - Reservations: policies/reservations.md
       - Equipment Checkout: policies/equipment-checkout.md
+  - Tags: tags.md
 
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
   - admonition
   - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
   - toc:
       permalink: true
+  - meta
 
 extra_css:
   - stylesheets/extra.css
