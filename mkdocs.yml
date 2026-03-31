@@ -5,7 +5,7 @@ site_url: https://zbghost325.github.io/XRIML-WIKI/
 
 theme:
   name: material
-  logo: images/xriml-logo.png
+  logo: images/logo-test.png
   palette:
     - scheme: default
       toggle:
