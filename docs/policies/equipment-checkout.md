@@ -17,7 +17,7 @@ version: "1.0"
 Rent equipment from the XR Immersive Media Lab using the WebCheckout Patron Portal.
 
 <a href="https://northeastern.webcheckout.net/sso/patron" target="_blank" class="md-button md-button--primary">Open WebCheckout</a>
-<a href="../equipment/overview/" class="md-button">Browse Resource Guide</a>
+<a href="../../equipment/overview/" class="md-button">Browse Resource Guide</a>
 
 ---
 
