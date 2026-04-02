@@ -39,6 +39,9 @@ nav:
       - Displays: equipment/displays.md
       - Software: equipment/software.md
       - Legacy: equipment/legacy.md
+  - Keralia Trainings:
+      - Overview: trainings/overview.md
+      - 360 Camera Use – GoPro Max Video Editing: trainings/360-camera-gopro-max-video-editing.md
   - Policies:
       - Lab Rules: policies/lab-rules.md
       - Reservations: policies/reservations.md
