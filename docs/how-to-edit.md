@@ -1,14 +1,14 @@
 ---
 tags:
   - Guide
-date: 2026-03-30
-version: "1.0"
+date: 2026-04-01
+version: "2.0"
 ---
 
 # How to Edit This Wiki
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="meta-date">Last updated: 2026-04-01 &middot; v2.0</span>
   <span class="tag">Guide</span>
 </div>
 
@@ -18,7 +18,7 @@ This guide explains how to update the XRIML Wiki. **No coding experience require
 
 ### Step 1: Go to the GitHub Repository
 
-Navigate to: `https://github.com/yourusername/xriml-wiki`
+Navigate to: `https://github.com/zbghost325/XRIML-WIKI`
 
 ### Step 2: Find the File to Edit
 
@@ -26,16 +26,35 @@ All content lives in the `docs/` folder:
 
 ```
 docs/
-├── index.md              ← Homepage
-├── about/
-│   └── about-the-lab.md
-├── spaces/
-│   ├── testing-room.md
-│   └── ...
-├── equipment/
+├── index.md                ← Homepage
+├── how-to-edit.md          ← This guide
+├── tags.md                 ← Tag index (auto-generated)
+├── equipment/              ← Resource Guide (all equipment categories)
+│   ├── overview.md
 │   ├── vr-headsets.md
-│   └── ...
-└── images/               ← All images go here
+│   ├── ar-headsets.md
+│   ├── mr-headsets.md
+│   ├── xr-accessories.md
+│   ├── 360-cameras.md
+│   ├── 360-accessories.md
+│   ├── motion-capture.md
+│   ├── volumetric-capture.md
+│   ├── workstations.md
+│   ├── displays.md
+│   ├── software.md
+│   └── legacy.md
+├── trainings/              ← Keralia Training guides
+│   ├── overview.md
+│   └── 360-camera-gopro-max-video-editing.md
+├── policies/               ← Lab rules, reservations, checkout
+│   ├── lab-rules.md
+│   ├── reservations.md
+│   └── equipment-checkout.md
+├── spaces/                 ← Lab rooms and spaces
+├── software/               ← Software guides
+├── about/                  ← Lab info and contact
+├── images/                 ← All images go here
+└── stylesheets/            ← Custom CSS (advanced)
 ```
 
 ### Step 3: Edit the File
@@ -58,7 +77,7 @@ tags:
   - Equipment
   - VR
   - Keralia Training    # Add this tag for Keralia training content
-date: 2026-03-30        # Update when content changes
+date: 2026-04-01        # Update when content changes
 version: "1.1"          # Bump version on updates
 ---
 ```
@@ -67,7 +86,7 @@ Then add the visual banner after the `# Title`:
 
 ```html
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.1</span>
+  <span class="meta-date">Last updated: 2026-04-01 &middot; v1.1</span>
   <span class="tag">Equipment</span>
   <span class="tag">VR</span>
   <span class="tag tag-keralia">Keralia Training</span>
@@ -75,6 +94,95 @@ Then add the visual banner after the `# Title`:
 ```
 
 Use `class="tag tag-keralia"` for the special Keralia Training tag (gold styling).
+
+### Equipment Page Icons
+
+Equipment pages use inline Material icons to indicate availability:
+
+```markdown
+### Meta Quest 3 :material-cart-outline: :material-access-point:
+```
+
+| Icon | Meaning |
+|------|---------|
+| `:material-cart-outline:` | Available for checkout via WebCheckout |
+| `:material-access-point:` | Standalone (no PC required) |
+| `:material-link-variant:` | Wired / PC-tethered |
+
+---
+
+## Adding a Keralia Training
+
+Training pages follow a specific naming and header convention. Use an existing training as a template.
+
+### Step 1: Create the File
+
+1. Navigate to `docs/trainings/` in GitHub
+2. Click **"Add file" → "Create new file"**
+3. Name it using the pattern: `topic-specific-tool.md` (e.g., `360-camera-gopro-max-video-editing.md`)
+
+### Step 2: Use the Training Template
+
+```yaml
+---
+tags:
+  - Keralia Training
+  - 360 Video           # Add relevant topic tags
+date: 2026-01-23        # Date from training document (MMDDYY → YYYY-MM-DD)
+version: "1.0"
+---
+```
+
+```markdown
+# Training Title – Specific Tool Name
+
+<div class="training-header">
+  <div class="training-title-row">
+    <span class="tag tag-keralia">Keralia Training</span>
+    <span class="badge-duration">:material-clock-outline: 60 mins</span>
+  </div>
+  <div class="training-meta">
+    <span>:material-calendar-outline: Dated: 01/23/26</span>
+    <span>&middot;</span>
+    <span>v1.0</span>
+  </div>
+</div>
+
+---
+
+## Learning Objectives
+- ...
+
+## Learning Outcomes
+- ...
+
+## Learning Deliverable
+- ...
+
+---
+
+## Overview
+(Step-by-step instructions here)
+```
+
+**Key fields:**
+
+- **Title**: `Topic – Specific Tool` (e.g., `360 Camera Use – GoPro Max Video Editing`)
+- **Duration**: Update the `60 mins` in `badge-duration` to match the training length
+- **Date**: Use the `MMDDYY` date from the training document header, formatted as `MM/DD/YY`
+
+### Step 3: Add to Navigation
+
+Edit `mkdocs.yml` and add your training under the `Keralia Trainings` section:
+
+```yaml
+nav:
+  - Keralia Trainings:
+      - Overview: trainings/overview.md
+      - Your Training Title: trainings/your-training-file.md  # ← Add here
+```
+
+Also add it to the list in `trainings/overview.md`.
 
 ---
 
@@ -170,10 +278,14 @@ Edit `mkdocs.yml` and add your page to the `nav:` section:
 
 ```yaml
 nav:
-  - Equipment:
+  - Resource Guide:
       - Overview: equipment/overview.md
-      - VR Headsets: equipment/vr-headsets.md
       - Your New Page: equipment/your-page-name.md  # ← Add here
+  - Keralia Trainings:
+      - Overview: trainings/overview.md
+      - Your Training: trainings/your-training.md   # ← Or here
+  - Policies:
+      - ...
 ```
 
 ---
@@ -183,10 +295,11 @@ nav:
 | Task | How |
 |------|-----|
 | Fix a typo | Edit the `.md` file directly |
-| Update equipment specs | Edit the relevant page in `equipment/` |
-| Add a new headset | Edit `equipment/vr-headsets.md` or create new page |
+| Update equipment info | Edit the relevant page in `equipment/` |
+| Add a new headset | Edit the appropriate headset page (e.g., `equipment/vr-headsets.md`) |
+| Add a new training | Create `.md` in `trainings/`, add to `mkdocs.yml` (see template above) |
 | Change lab hours | Edit `about/contact-hours.md` |
-| Add a new policy | Create new `.md` in `policies/`, add to `mkdocs.yml` |
+| Add a new policy | Create `.md` in `policies/`, add to `mkdocs.yml` |
 | Browse by topic | Visit the [Tags](tags.md) page |
 
 ---
@@ -197,4 +310,4 @@ nav:
 - **MkDocs Documentation:** [mkdocs.org](https://www.mkdocs.org)
 - **Material Theme Features:** [squidfunk.github.io/mkdocs-material](https://squidfunk.github.io/mkdocs-material)
 
-Or contact: [Add lab manager contact]
+Or contact: **camdimmersivemedialab@northeastern.edu**
