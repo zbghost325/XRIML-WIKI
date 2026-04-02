@@ -16,7 +16,7 @@ version: "1.0"
     <span class="badge-duration">&#x1F552; 60 mins</span>
   </div>
   <div class="training-meta">
-    <span>&#x1F4C5; Dated: 01/23/26</span>
+    <span>&#x1F4C5; Last Updated: 01-23-2026</span>
     <span>&middot;</span>
     <span>v1.0</span>
   </div>

@@ -9,7 +9,7 @@ version: "2.0"
 # MR Headsets
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v2.0</span>
+  <span class="meta-date">Last Updated: 03-30-2026 &middot; v2.0</span>
   <span class="tag">Equipment</span>
   <span class="tag">MR</span>
 </div>

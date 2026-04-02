@@ -9,7 +9,7 @@ version: "1.0"
 # Keralia Trainings
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-04-01 &middot; v1.0</span>
+  <span class="meta-date">Last Updated: 04-01-2026 &middot; v1.0</span>
   <span class="tag tag-keralia">Keralia Training</span>
   <span class="tag">Overview</span>
 </div>

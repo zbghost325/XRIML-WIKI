@@ -9,7 +9,7 @@ version: "1.0"
 # Development Room
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v1.0</span>
+  <span class="meta-date">Last Updated: 03-30-2026 &middot; v1.0</span>
   <span class="tag">Spaces</span>
   <span class="tag">Development</span>
 </div>

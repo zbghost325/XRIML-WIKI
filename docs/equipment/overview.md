@@ -9,7 +9,7 @@ version: "2.1"
 # Resource Guide
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-03-30 &middot; v2.1</span>
+  <span class="meta-date">Last Updated: 03-30-2026 &middot; v2.1</span>
   <span class="tag">Equipment</span>
   <span class="tag">Overview</span>
 </div>

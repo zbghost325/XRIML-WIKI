@@ -8,7 +8,7 @@ version: "2.0"
 # How to Edit This Wiki
 
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-04-01 &middot; v2.0</span>
+  <span class="meta-date">Last Updated: 04-01-2026 &middot; v2.0</span>
   <span class="tag">Guide</span>
 </div>
 
@@ -77,7 +77,7 @@ tags:
   - Equipment
   - VR
   - Keralia Training    # Add this tag for Keralia training content
-date: 2026-04-01        # Update when content changes
+date: 2026-04-01        # Update when content changes (YYYY-MM-DD in frontmatter)
 version: "1.1"          # Bump version on updates
 ---
 ```
@@ -86,7 +86,7 @@ Then add the visual banner after the `# Title`:
 
 ```html
 <div class="page-meta">
-  <span class="meta-date">Last updated: 2026-04-01 &middot; v1.1</span>
+  <span class="meta-date">Last Updated: 04-01-2026 &middot; v1.1</span>
   <span class="tag">Equipment</span>
   <span class="tag">VR</span>
   <span class="tag tag-keralia">Keralia Training</span>
@@ -128,7 +128,7 @@ Training pages follow a specific naming and header convention. Use an existing t
 tags:
   - Keralia Training
   - 360 Video           # Add relevant topic tags
-date: 2026-01-23        # Date from training document (MMDDYY → YYYY-MM-DD)
+date: 2026-01-23        # Date from training document (YYYY-MM-DD in frontmatter)
 version: "1.0"
 ---
 ```
@@ -142,7 +142,7 @@ version: "1.0"
     <span class="badge-duration">&#x1F552; 60 mins</span>
   </div>
   <div class="training-meta">
-    <span>&#x1F4C5; Dated: 01/23/26</span>
+    <span>&#x1F4C5; Last Updated: 01-23-2026</span>
     <span>&middot;</span>
     <span>v1.0</span>
   </div>
@@ -169,7 +169,7 @@ version: "1.0"
 
 - **Title**: `Topic – Specific Tool` (e.g., `360 Camera Use – GoPro Max Video Editing`)
 - **Duration**: Update the `60 mins` in `badge-duration` to match the training length
-- **Date**: Use the `MMDDYY` date from the training document header, formatted as `MM/DD/YY`
+- **Date**: Displayed as `Last Updated: MM-DD-YYYY` (e.g., `Last Updated: 01-23-2026`)
 
 ### Step 3: Add to Navigation
 
