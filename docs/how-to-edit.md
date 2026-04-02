@@ -139,10 +139,10 @@ version: "1.0"
 <div class="training-header">
   <div class="training-title-row">
     <span class="tag tag-keralia">Keralia Training</span>
-    <span class="badge-duration">:material-clock-outline: 60 mins</span>
+    <span class="badge-duration">&#x1F552; 60 mins</span>
   </div>
   <div class="training-meta">
-    <span>:material-calendar-outline: Dated: 01/23/26</span>
+    <span>&#x1F4C5; Dated: 01/23/26</span>
     <span>&middot;</span>
     <span>v1.0</span>
   </div>
