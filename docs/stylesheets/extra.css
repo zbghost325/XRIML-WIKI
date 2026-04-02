@@ -225,6 +225,106 @@
   font-weight: 600;
 }
 
+/* ── Print button ── */
+.print-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border: 1.5px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  margin-left: auto;
+}
+
+.print-btn:hover {
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+/* ── Print styles ── */
+@media print {
+  /* Hide site chrome */
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-search,
+  .md-top,
+  .md-source,
+  .md-dialog {
+    display: none !important;
+  }
+
+  /* Hide tags rendered by the tags plugin */
+  .md-tags {
+    display: none !important;
+  }
+
+  /* Hide elements marked no-print */
+  .no-print,
+  .print-btn {
+    display: none !important;
+  }
+
+  /* Hide "Related Resources" and other tip/info admonitions at page bottom */
+  .admonition.tip,
+  .admonition.info,
+  .admonition.note {
+    display: none !important;
+  }
+
+  /* Full width content */
+  .md-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .md-main__inner {
+    margin: 0 !important;
+  }
+
+  .md-grid {
+    max-width: 100% !important;
+  }
+
+  /* Clean up training header for print */
+  .training-header {
+    border-left: 3px solid #A4804A;
+    background: #f9f6f1 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .badge-duration {
+    background: #FFF3E0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .tag.tag-keralia {
+    background: #A4804A !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Keep page breaks clean */
+  h2, h3 {
+    break-after: avoid;
+  }
+
+  pre, table {
+    break-inside: avoid;
+  }
+}
+
 /* Keralia Training tag in the tags index */
 a[href*="Keralia"],
 .md-tag[href*="Keralia"] {

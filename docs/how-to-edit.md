@@ -140,6 +140,7 @@ version: "1.0"
   <div class="training-title-row">
     <span class="tag tag-keralia">Keralia Training</span>
     <span class="badge-duration">&#x1F552; 60 mins</span>
+    <button class="print-btn" onclick="window.print()">&#x1F5A8;&#xFE0F; Print</button>
   </div>
   <div class="training-meta">
     <span>&#x1F4C5; Last Updated: 01-23-2026</span>
